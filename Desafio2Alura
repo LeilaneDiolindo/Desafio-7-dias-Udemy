@@ -1,0 +1,18 @@
+nome = input ("Digite o seu nome")
+idade = input ("Digite sua idade")
+linguagem = input ("Digite a sua linguagem de programação")
+
+print("Olá" + nome + " você tem" + idade + " anos" + " e já está aprendendo" + linguagem + "!")
+
+# Pergunta com programação
+pergunta = "Você gosta de estudar [linguagem]? Responda com o número 1 para SIM ou 2 para NÃO."
+
+# Solicitar resposta do usuário
+resposta = input(pergunta + " ")
+
+if (resposta) == "1":
+    print("Muito bom! Continue estudando e você terá muito sucesso.")
+
+elif (resposta) == "2": 
+    print("Ahh que pena... Já tentou aprender outras linguagens?")
+  
